@@ -1,0 +1,5 @@
+PLUGIN_SIMPLESEARCH:
+        SEARCH_PLACEHOLDER: "Suchbegriff eingeben..."
+        SEARCH_RESULTS: "Suchergebnisse"
+        SEARCH_RESULTS_SUMMARY_SINGULAR: "Suche: <strong>%s</strong> fand ein Ergebnis"
+        SEARCH_RESULTS_SUMMARY_PLURAL: "Suche: <strong>%s</strong> fand %s Ergebnisse"
