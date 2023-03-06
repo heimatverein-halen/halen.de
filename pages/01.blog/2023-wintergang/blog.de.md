@@ -7,6 +7,7 @@ taxonomy:
     tag:
         - Veranstaltung
 visible: false
+media_order: '04_IMG-20230301-WA0006.jpg,10_IMG-20230301-WA0001.jpg,03_IMG-20230301-WA0008.jpg'
 ---
 
 Am 25. Februar eröffnete der Heimatverein Halen die Saison 2023 mit ihrem traditionellen Wintergang. Die 57 Heimatfreunde, darunter viele Kinder und Jugendliche, versammelten sich am Dorfplatz in der Ortsmitte. Nach der Begrüßung durch den 1. Vorsitzenden des Heimatvereins, Alfons Arkenau, machten sich alle gut gelaunt bei strahlendem Winterwetter, mit einem Verpflegungswagen voraus, auf den Weg durch Halen. Unterbrochen durch mehrere Pausen, in denen man sich mit Heiß- und Kaltgetränken sowie Süßigkeiten stärken konnte, erreichte die Gruppe auf abgelegenen Wegen das Ziel, die Feuerwehr in Emstek.
