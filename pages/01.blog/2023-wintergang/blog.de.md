@@ -1,17 +1,16 @@
 ---
 title: 'Heimatverein Halen besucht beim Wintergang die Feuerwehr in Emstek'
-date: 17.09.2022
+date: 25.02.2023
 taxonomy:
+    category:
+        - blog
     tag:
         - Veranstaltung
 visible: false
-media_order: 'IMG-20220921-WA0014 (2).jpg,IMG-20220921-WA0011 (1).jpg,IMG-20220921-WA0008.jpg,IMG-20220921-WA0002.jpg,IMG-20220921-WA0000.jpg'
 ---
 
-Bei durchwachsenem Reisewetter konnte Alfons Arkenau, der 1. Vorsitzende des Heimatvereins Halen, am Samstag, 17.09.22, frühmorgens 59 Heimatfreunde zum Tagesausflug nach Walsrode begrüßen. 
+Am 25. Februar eröffnete der Heimatverein Halen die Saison 2023 mit ihrem traditionellen Wintergang. Die 57 Heimatfreunde, darunter viele Kinder und Jugendliche, versammelten sich am Dorfplatz in der Ortsmitte. Nach der Begrüßung durch den 1. Vorsitzenden des Heimatvereins, Alfons Arkenau, machten sich alle gut gelaunt bei strahlendem Winterwetter, mit einem Verpflegungswagen voraus, auf den Weg durch Halen. Unterbrochen durch mehrere Pausen, in denen man sich mit Heiß- und Kaltgetränken sowie Süßigkeiten stärken konnte, erreichte die Gruppe auf abgelegenen Wegen das Ziel, die Feuerwehr in Emstek.
 
-Auf dem Weg dorthin nahm man unterwegs zunächst das nun schon zur Tradition gewordene Frühstück am Bus ein. Gut gestärkt ging es dann zur Kerzenmanufaktur und Zierkerzenschnitzerei Heide – Wachs nach Walsrode. Hier werden Kerzen nach einem alten traditionellen Kunsthandwerk hergestellt. Die Teilnehmer hatten die Gelegenheit, bei einer Vorführung den Künstlern beim Kerzentauchen, bemalen, dekorieren und beim Kerzenschnitzen über die Schulter zu schauen und konnten anschließend eine große Palette handgeschnitzter Kerzen in allen Variationen besichtigen.
+Dort wurden die Teilnehmer schon von Gemeindebrandmeister Reinhard Vaske erwartet und begrüßt. Im weiteren Verlauf skizzierte Vaske in seinem Bericht umfangreich und sehr detailliert das Tätigkeitsfeld der Feuerwehr. Dabei stellte er auch die vielen Tanklöschfahrzeuge vor und erläuterte deren speziellen Aufgabenbereich. Bei der späteren Besichtigung waren die Heimatfreunde überrascht, mit wieviel Technik und Equipment diese Fahrzeuge ausgestattet sind. Die Ausrüstung der Wehr ist auf dem neuesten Stand der Technik, ob bei der Brandbekämpfung, technischen Hilfeleistung oder beim Gefahrenguteinsatz.
 
-Nach diesen informativen Ausführungen ging es weiter zur Waldgaststätte Eckernworth, wo in ausgelassener Stimmung ein reichhaltiges Mittagessen eingenommen wurde.  Anschließend wartete schon die Böhmetal – Kleinbahn auf den Heimatverein. Die einzige Schmalspurbahn der Lüneburger Heide mit Dampfbetrieb kutschierte die Teilnehmer mit der Lokomotive „Wilde Erika“ und Waggons aus den Jahren 1894 und 1954 durch die „Böhmeschen Dörfer“ über den Jordan, einem Nebenfluss der Böhme, durch die Landschaft. Dabei konnten alle Heimatfreunde miterleben, wie Loks rangiert, Weichen aufgeschlossen, alte Telefone bedient und Straßen gesperrt werden. 
-
-Nach Beendigung dieser gemütlichen Fahrt mit der Kleinbahn und einer Stärkung mit Kaffee und Kuchen traten die Heimatfreunde aus Halen die Heimreise an.
+Nach diesen interessanten Ausführungen durch Reinhard Vaske machte sich der Heimatverein wieder auf den Weg nach Halen und ließ im Landgasthaus Feldhaus zum Abschluss beim zünftigen Haxenessen den Tag ausklingen.
