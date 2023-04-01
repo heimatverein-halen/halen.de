@@ -1,7 +1,9 @@
 ---
 title: 'Halener beteiligen sich am Umwelttag'
-date: 17.09.2022
+date: 18.03.2023
 taxonomy:
+    category:
+        - blog
     tag:
         - Veranstaltung
 visible: false
