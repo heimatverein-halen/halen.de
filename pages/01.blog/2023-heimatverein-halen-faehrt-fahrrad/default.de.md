@@ -1,6 +1,6 @@
 ---
 title: 'Heimatverein Halen besucht den Flugplatz in Varrelbusch'
-date: 13.05.2017
+date: 13.05.2023
 taxonomy:
     category:
         - blog
@@ -8,4 +8,10 @@ taxonomy:
         - Veranstaltung
 ---
 
-Zur Eröffnung der Fahrradsaison in Halen konnte der 1. Vorsitzende des Heimatvereins, Alfons Arkenau, 43 Heimatfreunde begrüßen. Nach einer ersten „Lagebesprechung“ startete die Gruppe bei angenehmen Temperaturen vom Dorfplatz über Höltinghausen nach Kellerhöhe. Dort wurde bei der Pfarrkirche eine erste Trinkpause eingelegt. Nach ein paar Kilometern in Richtung Beverbruch bog man rechts ab, um den nördlichsten Punkt Halens, die Fischteiche, zu erreichen. Bei der Teichwirtschaft legte man eine ausgedehnte Pause bei Kaffee und Kuchen ein. Nachdem sich alle Teilnehmer gut gestärkt hatten, fuhr die Gruppe durch den wunderschönen Urwald des Baumwegs, unterbrochen durch eine weitere Pause, wieder zurück zum Ausgangspunkt nach Halen.
+Am 13. Mai 2023 starteten 42 Heimatfreunde des Heimatvereins Halen zur diesjährigen Familien – Fahrradtour zum Flugplatz Varrelbusch.
+
+Vereinsvorsitzender Alfons Arkenau begrüßte alle Teilnehmer- innen bei frühlingshaften Temperaturen und wünschte eine gute Fahrt durch Feld und Flur. Nach einer kurzen Rast mit Trinkpause in Bethen wurde über Staatsforsten der Flugplatz in Varrelbusch angesteuert. Dort wurde die Gruppe schon von der Vereinswirtin der Gaststätte Texas Airport erwartet. Bei Kaffee und Kuchen konnte man die Starts und Landungen der Piloten hautnah mitverfolgen.
+
+Anschließend wurden den Heimatfreunden bei einem Rundgang über das Gelände viele sachkundige Informationen über die Entstehung des Flugplatzes und über die verschiedenen Flugzeuge auf dem Areal vermittelt. Dabei hieß es: „Wer fliegen will, muss den Mut haben, den Boden zu verlassen.“ Seit 1953 bietet der Luftsportverein Cloppenburg allen Luftsportinteressierten hier einen Austausch und Spaß am gemeinsamen Hobby, sei es beim Motorflug, Segelflug oder beim Fallschirmspringen. 
+
+Nach diesen vielen Eindrücken machten sich die Heimatfreunde wieder auf den Heimweg nach Halen, wo beim Schützenplatz schon der angeheizte Grill auf sie wartete. Bei Steaks, Bratwürsten und kühlen Getränken ließ man diesen schönen Ausflug ausklingen.
