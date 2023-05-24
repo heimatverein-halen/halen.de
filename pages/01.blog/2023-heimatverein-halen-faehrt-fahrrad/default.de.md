@@ -6,6 +6,7 @@ taxonomy:
         - blog
     tag:
         - Veranstaltung
+media_order: 'Rast_in_Bethen.jpg,Vor_der_Abfahrt.jpg,Infos_auf_dem_Flugplatz(1).jpg'
 ---
 
 Am 13. Mai 2023 starteten 42 Heimatfreunde des Heimatvereins Halen zur diesjährigen Familien – Fahrradtour zum Flugplatz Varrelbusch.
