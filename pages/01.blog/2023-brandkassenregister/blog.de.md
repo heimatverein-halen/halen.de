@@ -28,4 +28,6 @@ Die beiden Autoren haben sich nicht nur mit dem Abschreiben der vier großen Bra
 
 Ergänzt wird die gesamte Arbeit mit einigen Fotografien, die verschiedene Höfe in der Gemeinde Emstek zeigen und die alle in den Jahren 1937 und 1938 angefertigt wurden. Sie wurden vom Museumsdorf Cloppenburg zur Verfügung gestellt.
 
+![03_20230606BuchvorstellungRathaus.resized](03_20230606BuchvorstellungRathaus.resized.jpg "03_20230606BuchvorstellungRathaus.resized")
+
 Bildbeschreibung: _Buchvorstellung: Die Vertreter der Heimatvereine und Sponsoren sowie Bürgermeister Michael Fischer freuten sich, das Ergebnis der Autoren Ludger Kock (5. von rechts) und Hans-Georg Koopmeiners (nicht im Bild) in den Händen zu halten. Foto: Vorwerk_
