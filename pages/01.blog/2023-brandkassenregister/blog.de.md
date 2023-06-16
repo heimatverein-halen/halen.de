@@ -7,6 +7,7 @@ taxonomy:
     tag:
         - Veranstaltung
 visible: false
+media_order: '03_20230606BuchvorstellungRathaus.resized.jpg,04_20230611Buchdeckel11062023.resized.jpg'
 ---
 
 **Ludger Kock und Hans-Georg Koopmeiners haben für die Heimatvereine der Gemeinde Emstek recherchiert. Das Ergebnis ist ein Schatz für Heimat- und Familienforscher.**
