@@ -4,8 +4,6 @@ date: 10.06.2023
 taxonomy:
     category:
         - blog
-    tag:
-        - Veranstaltung
 visible: false
 media_order: '03_20230606BuchvorstellungRathaus.resized.jpg,04_20230611Buchdeckel11062023.resized.jpg'
 ---
