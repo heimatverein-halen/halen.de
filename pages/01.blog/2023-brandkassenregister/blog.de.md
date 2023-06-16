@@ -30,4 +30,4 @@ Ergänzt wird die gesamte Arbeit mit einigen Fotografien, die verschiedene Höfe
 
 ![03_20230606BuchvorstellungRathaus.resized](03_20230606BuchvorstellungRathaus.resized.jpg "03_20230606BuchvorstellungRathaus.resized")
 
-Bildbeschreibung: _Buchvorstellung: Die Vertreter der Heimatvereine und Sponsoren sowie Bürgermeister Michael Fischer freuten sich, das Ergebnis der Autoren Ludger Kock (5. von rechts) und Hans-Georg Koopmeiners (nicht im Bild) in den Händen zu halten. Foto: Vorwerk_
+Buchvorstellung: Die Vertreter der Heimatvereine und Sponsoren sowie Bürgermeister Michael Fischer freuten sich, das Ergebnis der Autoren Ludger Kock (5. von rechts) und Hans-Georg Koopmeiners (nicht im Bild) in den Händen zu halten. Foto: Vorwerk
