@@ -7,6 +7,7 @@ taxonomy:
     tag:
         - Veranstaltung
 visible: false
+media_order: 'Gruppe_in_Schwege.jpg,Gruppenfoto_1.jpg,Wat_givt_Neies.jpg'
 ---
 
 Bei sonnigem Reisewetter konnte Alfons Arkenau, der 1. Vorsitzende des Heimatvereins Halen, am Samstag, 16.09.2023, frühmorgens 36 Heimatfreunde zum Tagesausflug in den Nachbarkreis Vechta begrüßen. 
