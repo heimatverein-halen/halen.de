@@ -7,11 +7,10 @@ taxonomy:
     tag:
         - Veranstaltung
 visible: false
-media_order: '04_IMG-20230301-WA0006.jpg,10_IMG-20230301-WA0001.jpg,03_IMG-20230301-WA0008.jpg'
 ---
 
-Am 25. Februar eröffnete der Heimatverein Halen die Saison 2023 mit ihrem traditionellen Wintergang. Die 57 Heimatfreunde, darunter viele Kinder und Jugendliche, versammelten sich am Dorfplatz in der Ortsmitte. Nach der Begrüßung durch den 1. Vorsitzenden des Heimatvereins, Alfons Arkenau, machten sich alle gut gelaunt bei strahlendem Winterwetter, mit einem Verpflegungswagen voraus, auf den Weg durch Halen. Unterbrochen durch mehrere Pausen, in denen man sich mit Heiß- und Kaltgetränken sowie Süßigkeiten stärken konnte, erreichte die Gruppe auf abgelegenen Wegen das Ziel, die Feuerwehr in Emstek.
+Am 20. Juni 2024 fand die Bereisung Halens durch die Kommission des 22. Kreiswettbewerbs „Unser Dorf hat Zukunft“ statt. Halen hatte an diesem Wettbewerb zuletzt im Jahr 2014/2015 teilgenommen.
 
-Dort wurden die Teilnehmer schon von Gemeindebrandmeister Reinhard Vaske erwartet und begrüßt. Im weiteren Verlauf skizzierte Vaske in seinem Bericht umfangreich und sehr detailliert das Tätigkeitsfeld der Feuerwehr. Dabei stellte er auch die vielen Tanklöschfahrzeuge vor und erläuterte deren speziellen Aufgabenbereich. Bei der späteren Besichtigung waren die Heimatfreunde überrascht, mit wieviel Technik und Equipment diese Fahrzeuge ausgestattet sind. Die Ausrüstung der Wehr ist auf dem neuesten Stand der Technik, ob bei der Brandbekämpfung, technischen Hilfeleistung oder beim Gefahrenguteinsatz.
+Zunächst wurden die Kommissionsmitglieder draußen vor der Kirche vom Gemischten Chor mit dem Halen-Lied empfangen. Im Dorfgemeinschaftshaus begrüßte Annette Reinke stellvertretend für den Heimatverein die Kommission, den Bürgermeister und die Gäste und stellte die Präsentation von Halen bildlich vor. Die vier Punkte des Bewertungsrahmens lauten: Entwicklungskonzepte, Soziales Engagement und kulturelle Aktivitäten, Baugestaltung und Siedlungsentwicklung, Grüngestaltung im Dorf und der Bezug zur Landschaft. Das Dorf Halen kann all diese Aspekte bedienen. Besonders die 72-Stunden-Aktion der Landjugend, die Schutzhütte mit Grillstelle, wurde von Johann Struckmeier sehr gut dargestellt. Mit diesem Projekt hat Halen sich um einen Sonderpreis beworben. Doris Ostmann von der Frauengemeinschaft hatte für wunderbare Dekoration und feine Leckereien gesorgt. Während der anschließenden Busbereisung mit einem kurzen Stopp beim Badesee erläuterte Martin Springer den Teilnehmern nochmals die Vorzüge Halens.
 
-Nach diesen interessanten Ausführungen durch Reinhard Vaske machte sich der Heimatverein wieder auf den Weg nach Halen und ließ im Landgasthaus Feldhaus zum Abschluss beim zünftigen Haxenessen den Tag ausklingen.
+Das Ergebnis wird am 12. Oktober 2024 bei der Abschlussfeier in Gehlenberg bekanntgegeben. Wir fiebern nun einer guten Platzierung entgegen.
