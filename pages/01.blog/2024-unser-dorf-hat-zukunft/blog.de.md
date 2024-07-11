@@ -7,6 +7,7 @@ taxonomy:
     tag:
         - Veranstaltung
 visible: false
+media_order: 'IMG-20240711-WA0002.jpg,IMG-20240711-WA0003.jpg,IMG-20240711-WA0004.jpg,IMG-20240711-WA0006.jpg'
 ---
 
 Am 20. Juni 2024 fand die Bereisung Halens durch die Kommission des 22. Kreiswettbewerbs „Unser Dorf hat Zukunft“ statt. Halen hatte an diesem Wettbewerb zuletzt im Jahr 2014/2015 teilgenommen.
