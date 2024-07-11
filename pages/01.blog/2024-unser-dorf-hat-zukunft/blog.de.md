@@ -1,5 +1,5 @@
 ---
-title: '"Unser Dorf hat Zukunft"'
+title: 'Unser Dorf hat Zukunft 2024'
 date: 20.06.2024
 taxonomy:
     category:
