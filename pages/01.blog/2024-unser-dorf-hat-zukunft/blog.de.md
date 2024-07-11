@@ -1,6 +1,6 @@
 ---
 title: '"Unser Dorf hat Zukunft"'
-date: 25.02.2023
+date: 20.06.2024
 taxonomy:
     category:
         - blog
