@@ -1,6 +1,5 @@
 ---
 title: 'Einladung zum Wintergang des Heimatvereins 2025'
-date: 20.06.2024
 taxonomy:
     category:
         - blog
