@@ -4,7 +4,7 @@ taxonomy:
     category:
         - blog
     tag:
-        - Veranstaltung
+        - Einladung
 visible: false
 ---
 
