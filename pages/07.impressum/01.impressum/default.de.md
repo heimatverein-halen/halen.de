@@ -13,8 +13,8 @@ Hauptstraße 58
 
 ## Vertreten durch
 
-den 1. Vorsitzenden  
-Alfons Arkenau
+den Vorsitzenden  
+Martin Springer
 
 ## Kontakt
 
@@ -29,9 +29,7 @@ Registernummer: VR 776
 
 ## Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV
 
-Alfons Arkenau  
-Hauptstraße 58a  
-49685 Halen
+Martin Springer
 
 ## Streitschlichtung
 
