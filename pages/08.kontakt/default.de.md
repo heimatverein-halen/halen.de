@@ -9,8 +9,6 @@ Hauptstraße 58a
 E-Mail: [info@heimatverein-halen.de](mailto:info@heimatverein-halen.de)**
 
 
-Alfons Arkenau – Tel.: 044731727  
-
 Martin Springer - Tel.: 01628290231
 
 Annette Reinke – Tel.: 044736235  
