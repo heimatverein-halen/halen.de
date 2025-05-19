@@ -4,7 +4,7 @@ taxonomy:
     category:
         - blog
     tag:
-        - Einladung
+        - Veranstaltung
 visible: false
 published: true
 date: 03.05.2025
