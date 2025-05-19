@@ -6,7 +6,7 @@ taxonomy:
     tag:
         - Einladung
 visible: false
-published: false
+published: true
 date: 03.05.2025
 media_order: 'Fahrradtour Bild 1_1747667975102-min.JPG,Fahrradtour Bild 4_1747667977036-min.JPG,Fahrradtour Bild 5_1747667979888-min.JPG'
 ---
