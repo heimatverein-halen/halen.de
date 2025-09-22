@@ -1,15 +1,22 @@
 ---
-title: 'Fahrradtour des Heimatverein Halen (Copy)'
+title: 'Tagesfahrt des Heimatvereins Halen'
 taxonomy:
     category:
         - blog
     tag:
         - Veranstaltung
 visible: false
-date: 03.05.2025
-media_order: 'Fahrradtour Bild 1_1747667975102-min.JPG,Fahrradtour Bild 4_1747667977036-min.JPG,Fahrradtour Bild 5_1747667979888-min.JPG'
+date: 10.09.2025
+media_order: 'Tagesfahrt Gruppenbild.resized.jpg'
 ---
 
-Am 3. Mai 2025 starteten bei wunderbarem Wetter 33 Heimatfreunde in die diesjährige Fahrradsaison. Vorab begrüßte der Vorsitzende Martin Springer die Teilnehmer und stellte die Strecke kurz vor. Los ging es dann vom Dorfplatz über den Lether Weg in Richtung Ahlhorn. Vorbei am Betriebsgelände der Firma Gräper Ahlhorn fuhren wir über den Dianaweg zu den Ahlhorner Fischteichen. Bei der dortigen Teichwirtschaft wartete unser Verpflegungswagen; auch hatten Maria und August Grafe die Tische fertig gedeckt und Kaffee und Butterkuchen standen schon für uns bereit. Nach einer ausgiebigen Kaffeepause an der frischen Luft fuhren alle gut gestärkt und vergnügt weiter durch den Baumweg zum Urwaldparkplatz, wo es noch eine kleine Rast mit Getränken und Süßigkeiten gab. Danach radelten alle zum Dorfgemeinschaftshaus nach Halen. Hier hatte Grillmeister Georg bereits Bratwurst und Steaks auf dem Grill. Auch zehn weitere Heimatfreunde, die an der Radtour nicht teilgenommen hatten, warteten dort auf uns. Beim gemütlichen Beisammensein haben wir diesen schönen Tag ausklingen lassen.
+Am 10.09.2025 fand die alljährliche Tagesfahrt des Heimatvereins Halen statt. Diesmal führte die Tour nach Varel. Nach einem guten Frühstück am Bus ging es für die 39 Teilnehmer weiter zur 5-stöckigen Vareler Holländer-Kappenwindmühle, die 1847 erbaut wurde und eine Höhe von 29,80 m hat.
+Dort haben uns drei Mitglieder des dortigen Heimatvereines schon erwartet. Als erstes wurde uns demonstriert, wie früher Korn gedroschen wurde:
+1. mit Ausschlagen
+2. mit dem Dreschflegel
+3. und 4. mit den ersten Maschinen mit Handbetrieb.
+4. 
+Korn war genügend vorhanden, sodass wir mit viel Spaß es selber ausprobieren konnten. Anschließend gab es eine Führung mit fachkundigen Informationen durch Remise und Mühle. 
+In Varel wurden im Jahr 1920 auch Autos gebaut, von denen einige noch heute zu sehen sind. Ferner wurde uns eine umfangreiche Sammlung von bäuerlichen Geräten und aus Industrie, Handwerk, Sport, z.B. Boßeln und Klootschießen, das es heute noch gibt, und noch vieles mehr gezeigt und erklärt.
 
-Fotograf: Günter Dobelmann
+Nach dieser interessanten Führung und einem tollen Ausblick von der Galerie der Mühle fuhren wir zum Restaurant „Aal & Krabbe“, wo uns ein leckerer Fischteller serviert wurde. Anschließend konnte jeder noch am Hafen spazieren gehen, im Bahlsen Outlet bummeln und einkaufen oder einfach die Sonne genießen. Gegen 15 Uhr fuhren wir weiter zum Café „Handwerk und Kunst“ in Rastede. Bei einem großen Tortenstück mit Kaffee und umgeben von vielen schönen Kunstgegenständen ließen wir den Tag ausklingen, bevor wir die Heimreise nach Halen antraten.
