@@ -15,7 +15,7 @@ Dort haben uns drei Mitglieder des dortigen Heimatvereines schon erwartet. Als e
 1. mit Ausschlagen
 2. mit dem Dreschflegel
 3. und 4. mit den ersten Maschinen mit Handbetrieb.
-4. 
+
 Korn war genügend vorhanden, sodass wir mit viel Spaß es selber ausprobieren konnten. Anschließend gab es eine Führung mit fachkundigen Informationen durch Remise und Mühle. 
 In Varel wurden im Jahr 1920 auch Autos gebaut, von denen einige noch heute zu sehen sind. Ferner wurde uns eine umfangreiche Sammlung von bäuerlichen Geräten und aus Industrie, Handwerk, Sport, z.B. Boßeln und Klootschießen, das es heute noch gibt, und noch vieles mehr gezeigt und erklärt.
 
