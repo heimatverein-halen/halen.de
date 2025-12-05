@@ -4,7 +4,7 @@ taxonomy:
     category:
         - blog
     tag:
-        - Veranstaltung
+        - Aktionen
 visible: false
 date: 01.10.2025
 media_order: 'Gruppenfoto aller Helfer.jpg,Teamwork Sommerbühne.jpg'
