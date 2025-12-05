@@ -6,10 +6,12 @@ taxonomy:
     tag:
         - Veranstaltung
 visible: false
-date: 03.05.2025
-media_order: 'Fahrradtour Bild 1_1747667975102-min.JPG,Fahrradtour Bild 4_1747667977036-min.JPG,Fahrradtour Bild 5_1747667979888-min.JPG'
+date: 10.09.2025
+media_order: 'Gruppenfoto aller Helfer.jpg,Teamwork Sommerbühne.jpg'
 ---
 
-Am 3. Mai 2025 starteten bei wunderbarem Wetter 33 Heimatfreunde in die diesjährige Fahrradsaison. Vorab begrüßte der Vorsitzende Martin Springer die Teilnehmer und stellte die Strecke kurz vor. Los ging es dann vom Dorfplatz über den Lether Weg in Richtung Ahlhorn. Vorbei am Betriebsgelände der Firma Gräper Ahlhorn fuhren wir über den Dianaweg zu den Ahlhorner Fischteichen. Bei der dortigen Teichwirtschaft wartete unser Verpflegungswagen; auch hatten Maria und August Grafe die Tische fertig gedeckt und Kaffee und Butterkuchen standen schon für uns bereit. Nach einer ausgiebigen Kaffeepause an der frischen Luft fuhren alle gut gestärkt und vergnügt weiter durch den Baumweg zum Urwaldparkplatz, wo es noch eine kleine Rast mit Getränken und Süßigkeiten gab. Danach radelten alle zum Dorfgemeinschaftshaus nach Halen. Hier hatte Grillmeister Georg bereits Bratwurst und Steaks auf dem Grill. Auch zehn weitere Heimatfreunde, die an der Radtour nicht teilgenommen hatten, warteten dort auf uns. Beim gemütlichen Beisammensein haben wir diesen schönen Tag ausklingen lassen.
+Bei der diesjährigen Sommerbühne im Emsteker Bürgerpark wurde der Getränkeverkauf vom Heimatverein Halen organisiert. An jedem zweiten Mittwoch im Monat von Juni bis September jeweils von 19 bis 22 Uhr wurde somit auch einiges an Personal gebraucht und es war klar, dass die anderen Halener Vereine mit ins Boot geholt werden sollten.
 
-Fotograf: Günter Dobelmann
+Auf Nachfrage bei den Vereinen und nach genauer Erklärung des Ablaufs waren fünf Vereine bereit, mit einigen Mitgliedern dabei zu sein. Neben dem Heimatverein fanden sich von der Frauengemeinschaft, dem Puller-Club, der Landjugend, dem gemischten Chor und dem Schützenverein schnell fleißige Helfer. An jedem Tag waren immer zwei Vereine zusammen am Start. Im September begann die Sommerbühne schon am Nachmittag mit dem Kinderprogramm, welches das Forum Emstek anlässlich seines 5-jährigen Bestehens organisierte. Hier waren dann alle Vereine nochmals mit jeweils zwei Personen gefordert. Es war eine schöne Erfahrung und alles hat sehr gut geklappt, da alle mit Engagement und Freude dabei waren.
+
+Im Oktober wurden alle Helferinnen und Helfer vom Heimatverein zu einem gemütlichen Abend mit Imbiss ins Dorfgemeinschaftshaus eingeladen. Leider konnten nicht alle Helfer teilnehmen. Hiermit noch mal ein großes Lob und ein Dankeschön an alle, die geholfen haben und mit viel Enthusiasmus dabei waren.
