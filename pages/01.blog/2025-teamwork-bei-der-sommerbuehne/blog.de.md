@@ -6,7 +6,7 @@ taxonomy:
     tag:
         - Veranstaltung
 visible: false
-date: 10.09.2025
+date: 01.10.2025
 media_order: 'Gruppenfoto aller Helfer.jpg,Teamwork Sommerbühne.jpg'
 ---
 
