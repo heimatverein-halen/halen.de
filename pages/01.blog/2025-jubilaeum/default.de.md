@@ -4,9 +4,10 @@ taxonomy:
     category:
         - blog
     tag:
-        - Aktionen
         - Veranstaltung
+        - Aktionen
 date: 05.10.2025
+media_order: '20251005_113038.resized.jpg,20251005_113058.resized.jpg,20251005_125349.resized.jpg,20251005_125521.resized.jpg,IMG-20251005-WA0029.jpg,IMG-20251005-WA0028.jpg,IMG-20251005-WA0027.jpg,IMG-20251005-WA0026.jpg,IMG-20251005-WA0025.jpg,IMG-20251005-WA0024.jpg,IMG-20251005-WA0023.jpg,IMG-20251005-WA0022.jpg,IMG-20251005-WA0021.jpg,IMG-20251005-WA0020.jpg'
 ---
 
 Am 5. Oktober 2000 wurde im Saale Harling-Scheper von einigen Bürgern aus Halen der Heimatverein Halen e.V. gegründet. Die Initiative kam damals von Ludger Schumacher. Er wurde dann auch zum ersten Vorsitzenden gewählt. Zum ersten Vorstand im Jahr 2000 gehörten:
