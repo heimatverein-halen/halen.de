@@ -1,15 +1,26 @@
 ---
 title: 'Jubiläum des Heimatverein Halen'
-media_order: IMG_20180626_113157_BURST1.jpg
 taxonomy:
     category:
         - blog
     tag:
         - Aktionen
+        - Veranstaltung
+date: 05.10.2025
 ---
 
-Über 25 Jahre begrüßte das Schild, das anlässlich der 1100-Jahr-Feier Halens im Jahre 1990 vom damaligen Künstler Bernd Gierndt angefertigt worden war, die Halener und ihre Gäste an der Abzweigung Hauptstr./Baumwegstraße. Umsichtige Bürger haben damals das Schild vor der Zerstörung gerettet und für jeden weithin sichtbar am Giebel der Wagenremise von Josef Wedemeyer angebracht.
+Am 5. Oktober 2000 wurde im Saale Harling-Scheper von einigen Bürgern aus Halen der Heimatverein Halen e.V. gegründet. Die Initiative kam damals von Ludger Schumacher. Er wurde dann auch zum ersten Vorsitzenden gewählt. Zum ersten Vorstand im Jahr 2000 gehörten:
 
-Doch über die vielen Jahre hinweg hat der Zahn der Zeit am Schild genagt und die Farben bröckelten ab. Das hat der Heimatverein Halen zum Anlass genommen, Frau Elke Semprecht aus Emstek damit zu beauftragen, das Schild zu restaurieren bzw. zu erneuern. Mit viel Liebe zum Detail ist es ihr gelungen, das verwitterte Schild wieder in neuem Glanz erstrahlen zu lassen.
+1.  Vorsitzender Ludger Schumacher
 
-Einige Mitglieder des Heimatvereins Halen haben es nun an alter Stätte wieder angebracht, damit es weiterhin alle Halener und ihre Gäste „willkommen heißen“ kann.
+2.  stellv. Vorsitzender Bernhard Lübbehüsen
+
+3.  Schriftführerin Christa Thien
+
+4.  Kassenwart Wolfgang Kröning
+
+Den ersten Vorsitz behielt Ludger Schumacher bis zu seinem plötzlichen Tod im April 2014.
+
+In der Vereinssatzung wurde damals auch festgeschrieben, wofür der Verein gegründet wurde: das Brauchtum schützen, das Gemeinschaftsleben fördern, für die Entwicklung der Ortschaft, der Landschaftspflege und einiges mehr. Es wurde in den 25 Jahren vieles entwickelt, angeregt und Projekte finanziell unterstützt. Ganz besonders die jährlichen Ausflüge, ob zu Fuß, mit dem Rad oder dem Bus wurden von der Dorfgemeinschaft gerne angenommen.
+
+Am 5. Oktober 2025 lud der jetzige Vorstand, bestehend aus dem 1. Vorsitzenden Martin Springer, Schriftführerin Annette Reinke und Kassenwartin Inge Wolframm, zum 25-jährigen Jubiläum zu einer kleinen Feier ins Dorfgemeinschaftshaus ein. Es begann am Vormittag mit der Messe in der St.-Marien-Kirche. Anschließend ließ Martin Springer in einer Rede die 25 Jahre Revue passieren. Danach wurde neben dem Dorfgemeinschaftshaus ein Gingko-Baum gepflanzt und eine Plakette zu Ehren der 25 Jahre angebracht. Mit einem Umtrunk und einem anschließenden Imbiss ließen die Gäste und Heimatfreunde den Vormittag ausklingen.
