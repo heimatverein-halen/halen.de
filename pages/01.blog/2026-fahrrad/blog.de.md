@@ -7,6 +7,7 @@ taxonomy:
         - Veranstaltung
 visible: false
 date: 16.05.2026
+media_order: 'Fahrradtour Foto 1.jpg,Fahrradtour Foto 10.jpg,Fahrradtour Foto 11.jpg,Fahrradtour Foto 12.jpg,Fahrradtour Foto 2.jpg,Fahrradtour Foto 3.jpg,Fahrradtour Foto 4.jpg,Fahrradtour Foto 5.jpg,Fahrradtour Foto 6.jpg,Fahrradtour Foto 7.jpg,Fahrradtour Foto 8.jpg,Fahrradtour Foto 9.jpg'
 ---
 
 Am 16. Mai 2026 startete pünktlich um 14 Uhr die diesjährige Fahrradtour
