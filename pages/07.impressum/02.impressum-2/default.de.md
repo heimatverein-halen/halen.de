@@ -57,7 +57,7 @@ Martin Springer
 Emstekerweg 2   
 49685 Halen
 
-Telefon: 04473 1727  
+Telefon: 044731594   
 E-Mail: info@heimatverein-halen.de
 
 Verantwortliche Stelle ist die natürliche oder juristische Person, die allein oder gemeinsam mit anderen über die Zwecke und Mittel der Verarbeitung von personenbezogenen Daten (z.B. Namen, E-Mail-Adressen o. Ä.) entscheidet.
