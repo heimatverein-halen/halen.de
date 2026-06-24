@@ -18,7 +18,7 @@ Martin Springer
 
 ## Kontakt
 
-Telefon:  044731594
+Telefon:  044731594  
 E-Mail: info@heimatverein-halen.de
 
 ## Registereintrag
