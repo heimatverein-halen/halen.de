@@ -4,7 +4,7 @@ visible: true
 ---
 
 **Heimatverein Halen e.V.  
-Hauptstraße 58a  
+Emstekerweg 2    
 49685 Halen  
 E-Mail: [info@heimatverein-halen.de](mailto:info@heimatverein-halen.de)**
 
