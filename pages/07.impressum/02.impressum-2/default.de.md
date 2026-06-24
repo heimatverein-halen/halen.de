@@ -53,8 +53,8 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Komm
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-Alfons Arkenau  
-Haupstraße 58a  
+Martin Springer   
+Emstekerweg 2   
 49685 Halen
 
 Telefon: 04473 1727  
