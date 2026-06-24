@@ -8,7 +8,7 @@ taxonomy:
 ## Angaben gemäß § 5 TMG
 
 Heimatverein Halen e.V.  
-Hauptstraße 58  
+Emstekerweg 2    
 49685 Halen
 
 ## Vertreten durch
