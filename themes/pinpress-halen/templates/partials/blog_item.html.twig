@@ -1,0 +1,67 @@
+{% do assets.addCss('theme://css/item.css') %}
+<div class="post">
+  <div class="entry-container">
+    <div class="entry-content">
+
+      <h1 class="entry-title">
+        {{ page.title }}
+      </h1>
+
+      <div class="meta1">
+        <p>
+          <small>
+            <span><i class="fa fa-clock-o"></i> {{ page.date|date(config.system.pages.dateformat.long) }}</span>
+
+            {% if page.taxonomy.tag %}
+              <span> <i class="fa fa-tags"></i>
+                {% for tag in page.taxonomy.tag %}
+                <a href="{{ base_url }}/tag:{{ tag }}" rel="tag">{{ tag }}{% if not loop.last %}, {% endif %}</a>
+                {% endfor %}
+              </span>
+            {% endif %}
+          </small>
+        </p>
+      </div>
+
+      <div class="clear"></div>
+
+      <div class="entry-{% if page.header.youtube or page.header.soundcloud or page.header.vimeo %}video{% else %}image{% endif %}">
+        {% if page.header.youtube %}
+        <iframe src="{{ page.header.youtube }}?showinfo=0" frameborder="0" allowfullscreen style="width: 750px; height: 421.429px; {% if not truncate %}width: 680px;height: 392px;{% endif %}"></iframe>
+        {% endif %}
+        {% if page.header.vimeo %}
+        <iframe src="{{ page.header.vimeo }}" frameborder="0" allowfullscreen="" data-aspectratio="0.5619047619047619" style="width: 750px; height: 421.429px; {% if not truncate %}width: 680px;height: 392px;{% endif %}"></iframe>
+        {% endif %}
+        {% if page.header.soundcloud %}
+        <iframe width="100%" height="403" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/{{ page.header.soundcloud }}&amp;auto_play=false&amp;hide_related=true&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true&amp;buying=false"></iframe>
+        {% endif %}
+        {% if page.media.images|length == 1 %}
+          {% if page.media.images|first.meta.alt_text %}
+            {{ page.media.images|first.lightbox().cropZoom(750,422).html('', page.media.images|first.meta.alt_text, 'thumb')|raw }}
+            {{ page.media.images|first.meta.alt_text }}
+          {% else %}
+            {{ page.media.images|first.lightbox().cropZoom(750,422).html('', page.title, 'thumb')|raw }}
+          {% endif %}
+        {% endif %}
+      </div>
+
+      {{ page.content|raw }}
+      {% set show_prev_next = true %}
+
+      {% if page.media.images|length > 1 %}
+         {% for image in page.media.images %}
+    	    <div class="image" style="float: left; width : 200px; padding: 10px; text-align: center">
+            {% if image.meta.alt_text %}
+              {{ image.lightbox().cropZoom(200,180).html('', image.meta.alt_text, '')|raw }}<br />
+              {{ image.meta.alt_text }}
+            {% else %}
+              {{ image.lightbox().cropZoom(200,180).html('', page.title, '')|raw }}<br />
+            {% endif %}
+    	  	</div>
+    	  {% endfor %}
+		    <div class="clear"></div>
+      {% endif %}
+
+    </div>
+  </div>
+</div>

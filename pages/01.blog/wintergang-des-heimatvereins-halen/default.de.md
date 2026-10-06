@@ -1,5 +1,6 @@
 ---
 title: 'Wintergang des Heimatvereins Halen'
+date: 18.02.2017
 taxonomy:
     category:
         - blog

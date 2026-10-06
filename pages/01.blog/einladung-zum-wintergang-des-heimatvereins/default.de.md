@@ -1,5 +1,6 @@
 ---
 title: 'Einladung zum Wintergang des Heimatvereins'
+date: 18.02.2017
 unpublish_date: 15.02.2017
 taxonomy:
     category:

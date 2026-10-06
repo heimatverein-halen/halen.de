@@ -1,5 +1,6 @@
 ---
-title: ' Altes Schild erstrahlt in neuem Glanz'
+title: 'Altes Schild erstrahlt in neuem Glanz'
+date: 26.06.2018
 media_order: IMG_20180626_113157_BURST1.jpg
 taxonomy:
     category:

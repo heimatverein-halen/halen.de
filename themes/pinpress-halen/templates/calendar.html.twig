@@ -1,0 +1,69 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {# Outside the pipeline: Grav 2's JShrink re-minify breaks FullCalendar's date formatting. #}
+    {% do assets.add('moment', {priority: 12, pipeline: false}) %}
+    {% do assets.add('fullcalendar', {priority: 11, pipeline: false}) %}
+    {% do assets.add('gcal', {priority: 10, pipeline: false}) %}
+{% endblock %}
+
+{% block content %}
+
+<div class="post">
+  <div class="entry-container">
+    <div class="entry-content  single">
+        <div id='calendar'></div>
+        <div id='loading'>Kalender wird geladen...</div>
+        <script>
+
+            $(document).ready(function() {
+                {# Phones get a compact header and no event times (replaces server-side isMobile). #}
+                var isPhone = window.matchMedia('(max-width: 767px)').matches;
+
+                $('#calendar').fullCalendar({
+                    views: {
+                        customList: {
+                          type: 'list',
+                        visibleRange: function(currentDate) {
+                            return {
+                              start: currentDate,
+                              end: currentDate.clone().add(360, 'days')
+                            };
+                          },
+                          titleFormat: 'YYYY'
+                        }
+                    },
+                    height: 'auto',
+                    defaultView: 'customList',
+                    header: isPhone
+                        ? { left: '', center: 'title', right: '' }
+                        : { left: 'prev,next today', center: 'title', right: 'month,customList' },
+                    displayEventTime: !isPhone,
+                    locale: 'de',
+
+                    googleCalendarApiKey: 'AIzaSyAC16GX1QIyNe151Yb4iz1OthxIncazy4Y',
+
+                    events: {
+                        googleCalendarId: 'heimatvereinhalen@gmail.com'
+                    },
+
+                    loading: function(bool) {
+                        $('#loading').toggle(bool);
+                    }
+
+                });
+
+            });
+
+        </script>
+      {{ page.content|raw }}
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+{# Sidebar only on phones, desktop keeps the full-width calendar. #}
+<div class="span3 visible-phone" id="side-bar">
+{% include 'partials/sidebar.html.twig' %}
+</div>
+{% endblock %}
