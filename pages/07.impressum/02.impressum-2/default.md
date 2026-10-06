@@ -19,9 +19,9 @@ Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Des
 
 **Wie erfassen wir Ihre Daten?**
 
-Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie in ein Kontaktformular eingeben.
+Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z.B. um Daten handeln, die Sie uns per E-Mail schicken.
 
-Andere Daten werden automatisch beim Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie unsere Website betreten.
+Andere Daten werden beim Besuch der Website automatisch vom Server unseres Hosting-Anbieters erfasst. Das sind vor allem technische Daten (z.B. Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie unsere Website betreten.
 
 **Wofür nutzen wir Ihre Daten?**
 
@@ -47,7 +47,8 @@ Wir weisen darauf hin, dass die Datenübertragung im Internet (z.B. bei der Komm
 
 Die verantwortliche Stelle für die Datenverarbeitung auf dieser Website ist:
 
-Martin Springer   
+Heimatverein Halen e.V.  
+vertreten durch den Vorsitzenden Martin Springer  
 Emstekerweg 2   
 49685 Halen
 
@@ -70,6 +71,8 @@ Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen Einwilligun
 
 Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein Beschwerderecht bei einer Aufsichtsbehörde, insbesondere in dem Mitgliedstaat ihres gewöhnlichen Aufenthalts, ihres Arbeitsplatzes oder des Orts des mutmaßlichen Verstoßes zu. Das Beschwerderecht besteht unbeschadet anderweitiger verwaltungsrechtlicher oder gerichtlicher Rechtsbehelfe.
 
+Für uns zuständig ist der Landesbeauftragte für den Datenschutz Niedersachsen, Prinzenstraße 5, 30159 Hannover.
+
 ### Recht auf Datenübertragbarkeit
 
 Sie haben das Recht, Daten, die wir auf Grundlage Ihrer Einwilligung oder in Erfüllung eines Vertrags automatisiert verarbeiten, an sich oder an einen Dritten in einem gängigen, maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die direkte Übertragung der Daten an einen anderen Verantwortlichen verlangen, erfolgt dies nur, soweit es technisch machbar ist.
@@ -91,6 +94,10 @@ Wenn Sie die Verarbeitung Ihrer personenbezogenen Daten eingeschränkt haben, d�
 
 ## 3\. Datenerfassung auf unserer Website
 
+### Hosting
+
+Diese Website wird bei der hosting.de GmbH, Franzstraße 51, 52064 Aachen, betrieben.
+
 ### Server-Log-Dateien
 
 Der Provider der Seiten erhebt und speichert automatisch Informationen in so genannten Server-Log-Dateien, die Ihr Browser automatisch an uns übermittelt. Dies sind:
@@ -98,10 +105,26 @@ Der Provider der Seiten erhebt und speichert automatisch Informationen in so gen
 *   Browsertyp und Browserversion
 *   verwendetes Betriebssystem
 *   Referrer URL
-*   Hostname des zugreifenden Rechners
+*   aufgerufene Seite bzw. Datei
 *   Uhrzeit der Serveranfrage
 *   IP-Adresse
 
-Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.
+Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen. Die Log-Dateien werden nach etwa einer Woche automatisch gelöscht.
 
 Die Erfassung dieser Daten erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Der Websitebetreiber hat ein berechtigtes Interesse an der technisch fehlerfreien Darstellung und der Optimierung seiner Website – hierzu müssen die Server-Log-Files erfasst werden.
+
+### Cookies
+
+Beim Besuch dieser Website werden keine Cookies gesetzt.
+
+### Keine Analyse-Dienste und keine Inhalte von Drittanbietern
+
+Wir setzen keine Analyse- oder Tracking-Dienste ein. Schriftarten und Symbole liegen auf unserem eigenen Server. Beim Besuch der Website werden keine Inhalte von anderen Anbietern nachgeladen.
+
+### Links zu Facebook und Instagram
+
+Auf unsere Auftritte bei Facebook und Instagram verweisen wir nur mit einfachen Links. Daten werden erst dann an den jeweiligen Anbieter übertragen, wenn Sie einen solchen Link anklicken. Ab dann gelten dessen Datenschutzbestimmungen.
+
+### Kontakt per E-Mail
+
+Wenn Sie uns eine E-Mail schreiben, verwenden wir Ihre Angaben nur, um Ihre Anfrage zu bearbeiten. Rechtsgrundlage ist Art. 6 Abs. 1 lit. f DSGVO, bei Fragen zur Mitgliedschaft Art. 6 Abs. 1 lit. b DSGVO.
