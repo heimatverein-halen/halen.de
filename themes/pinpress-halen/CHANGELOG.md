@@ -1,3 +1,15 @@
+# v1.6.0
+## 10/06/2026
+
+1. [](#improved)
+    * Fewer page templates: `default` (pages and posts, shows photos automatically), `blog` (overview of child pages), `list_in_one` (photo overview), `calendar`
+    * Shared `entry` and `gallery` partials instead of four copies of the gallery code
+    * Dorfkalender reads the uploaded .ics file(s) itself, no FullCalendar, moment or Google API anymore
+    * Fonts and Font Awesome 4.7 self-hosted, no requests to Google or CDNs
+    * Plain JS for menu, dropdowns and sticky header instead of Bootstrap 2 / Blogger scripts
+    * Archive sidebar uses the stock archives plugin, archive_plus is gone
+    * Site specific CSS lives in css/custom.css
+
 # v1.5.0
 ## 10/06/2026
 

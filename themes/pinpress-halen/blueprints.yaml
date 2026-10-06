@@ -1,7 +1,7 @@
 name: Pinpress Halen
 slug: pinpress-halen
 type: theme
-version: 1.5.0
+version: 1.6.0
 description: "Heimatverein Halen theme, based on PinPress 1.4.1 by Team Grav. Renamed so GPM never replaces it with stock pinpress."
 icon: group
 author:
@@ -16,17 +16,3 @@ dependencies:
 
 compatibility:
   grav: ['1.7', '2.0']
-
-form:
-  validation: loose
-  fields:
-    dropdown.enabled:
-        type: toggle
-        label: Dropdown in navbar
-        highlight: 1
-        default: 1
-        options:
-          1: PLUGIN_ADMIN.ENABLED
-          0: PLUGIN_ADMIN.DISABLED
-        validate:
-          type: bool

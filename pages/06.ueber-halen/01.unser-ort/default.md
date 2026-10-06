@@ -1,8 +1,5 @@
 ---
 title: 'Unser Ort'
-process:
-    markdown: true
-    twig: true
 visible: true
 ---
 

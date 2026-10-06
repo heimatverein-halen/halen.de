@@ -1,48 +1,24 @@
 {% macro loop(page) %}
+    {% import _self as nav %}
     {% for p in page.children.visible %}
-        <li class="{% if p.children.visible.count > 0 %}dropdown{% endif %}">
-            {% if p.children.visible.count > 0 %}
+        {% set has_children = p.children.visible.count > 0 %}
+        <li class="{% if has_children %}dropdown{% endif %}">
+            {% if has_children %}
             <a class="dropdown-toggle" data-toggle="dropdown">
-                {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
                 {{ p.menu }}
                 <i class="fa fa-caret-down"></i>
             </a>
+            <ul class="dropdown-menu">
+                {{ nav.loop(p) }}
+            </ul>
             {% else %}
-                <a href="{{ p.url }}">
-                    {% if p.header.icon %}<i class="fa fa-{{ p.header.icon }}"></i>{% endif %}
-                    {{ p.menu }}
-                </a>
-            {% endif %}
-            {% if p.children.visible.count > 0 %}
-                <ul class="dropdown-menu">
-                    {{ _self.loop(p) }}
-                </ul>
+            <a href="{{ p.url }}">{{ p.menu }}</a>
             {% endif %}
         </li>
     {% endfor %}
 {% endmacro %}
 
+{% import _self as nav %}
 <ul class="nav" id="menu-primary">
-    {% if theme_config.dropdown.enabled %}
-        {{ _self.loop(pages) }}
-    {% else %}
-        {% for page in pages.children.visible %}
-            {% set current_page = (page.active or page.activeChild) ? 'current' : '' %}
-            <li class="{{ current_page }}">
-                <a href="{{ page.url }}">
-                    {{ page.menu }}
-                </a>
-            </li>
-        {% endfor %}
-    {% endif %}
-    {% for mitem in site.menu %}
-        <li>
-            <a href="{{ mitem.url }}">
-                {{ mitem.text }}
-            </a>
-        </li>
-    {% endfor %}
-    {% if config.plugins.login.enabled and grav.user.username %}
-        <li>{% include 'partials/login-status.html.twig' %}</li>
-    {% endif %}
+    {{ nav.loop(pages) }}
 </ul>

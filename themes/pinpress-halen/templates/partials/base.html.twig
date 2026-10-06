@@ -1,4 +1,3 @@
-{% set theme_config = attribute(config.themes, config.system.pages.theme) %}
 <!DOCTYPE html>
 <html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}" class="v2">
 <head>
@@ -8,21 +7,19 @@
         {% include 'partials/metadata.html.twig' %}
         <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
         <link rel="icon" type="image/png" href="{{ theme_url }}/images/favicon.png" />
-        <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'/>
-        <link href='https://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'/>
-        <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css' rel='stylesheet'/>
-        <link href='https://fonts.googleapis.com/css?family=Roboto+Slab%3A400%2C700&ver=4.2.2' id='roboto-slab-css' media='all' rel='stylesheet' type='text/css'/>
-        {% do assets.add('jquery',101) %}
         {% block stylesheets %}
+            {% do assets.addCss('theme://css/fonts.css', 110) %}
+            {% do assets.addCss('theme://css/font-awesome.min.css', 110) %}
             {% do assets.addCss('theme://css/widget.css') %}
             {% do assets.addCss('theme://css/style.css') %}
             {% do assets.addCss('theme://css/content.css', 101) %}
             {% do assets.addCss('theme://css/sidebar.css', 100) %}
+            {% do assets.addCss('theme://css/item.css') %}
+            {% do assets.addCss('theme://css/custom.css') %}
         {% endblock %}
 
         {% block javascripts %}
-            {% do assets.add('theme://js/scripts.js') %}
-            {% do assets.add('theme://js/video.js') %}
+            {% do assets.addJs('theme://js/theme.js', {'loading': 'defer'}) %}
         {% endblock %}
 
         {% block assets deferred %}

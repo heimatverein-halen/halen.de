@@ -1,33 +1,11 @@
-{% embed 'partials/base.html.twig' %}
+{# Overview page: lists its child pages (content.items in the page header). #}
+{% extends 'partials/base.html.twig' %}
 
-    {% set collection = page.collection() %}
-    {% set base_url = page.url %}
-    {% set feed_url = base_url %}
-
-    {% if base_url == '/' %}
-    {% set base_url = '' %}
-    {% endif %}
-
-    {% if base_url == base_url_relative %}
-    {% set feed_url = base_url~'/'~page.slug %}
-    {% endif  %}
-
-    {% block content %}
-
-    {{ page.content|raw }}
-        {% include 'partials/blog_sidebar_header.html.twig' %}
-
-        {% for child in collection %}
-        {% include 'partials/blog_item.html.twig' with {'page':child} %}
-        {% endfor %}
-
-        {% if config.plugins.pagination.enabled and collection.params.pagination %}
-        {% include 'pagination.html.twig' with {'pagination':collection.params.pagination} %}
-        {% endif %}
-
-        {% include 'partials/blog_sidebar_footer.html.twig' %}
-    {% endblock %}
-
-{% endembed %}
-
-
+{% block content %}
+{% include 'partials/blog_sidebar_header.html.twig' %}
+{{ page.content|raw }}
+{% for child in page.collection() %}
+  {% include 'partials/entry.html.twig' with {'page': child} %}
+{% endfor %}
+{% include 'partials/blog_sidebar_footer.html.twig' %}
+{% endblock %}
