@@ -7,6 +7,7 @@ taxonomy:
         - Veranstaltung
 visible: false
 date: 19.09.2026
+media_order: 'Tagesfahrt Gruppenfoto.jpg,Tagesfahrt Foto 4.jpg,Tagesfahrt Foto 3.jpg,Tagesfahrt Foto 2.jpg,Tagesfahrt Foto 1.jpg'
 ---
 
 Am 19.09.2026 fuhr der Heimatverein, nach etwas verspäteter Busankunft, mit 36 Teilnehmern in Richtung Osnabrück. Das schon traditionelle Frühstück haben wir auf dem Rastplatz Dammer Bege verspeist. Dann ging es weiter zum Piesberg nach Osnabrück.
