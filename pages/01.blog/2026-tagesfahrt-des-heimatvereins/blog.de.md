@@ -6,7 +6,7 @@ taxonomy:
     tag:
         - Veranstaltung
 visible: false
-date: 16.05.2026
+date: 19.09.2026
 ---
 
 Am 19.09.2026 fuhr der Heimatverein, nach etwas verspäteter Busankunft, mit 36 Teilnehmern in Richtung Osnabrück. Das schon traditionelle Frühstück haben wir auf dem Rastplatz Dammer Bege verspeist. Dann ging es weiter zum Piesberg nach Osnabrück.
