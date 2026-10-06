@@ -2,3 +2,5 @@
 !/pages
 !/languages
 !/themes
+# Installed and updated by GPM, like the plugins
+/themes/quark2/

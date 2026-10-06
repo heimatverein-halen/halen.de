@@ -1,0 +1,13 @@
+{# Quark 2's archive list, by year instead of month (archives plugin: date_display_format 'Y', taxonomy_names.year archiv). #}
+<ul class="archives">
+{% for year, items in archives_data %}
+    <li>
+        <a href="{{ base_url }}/{{ config.plugins.archives.taxonomy_names.year }}{{ config.system.param_sep }}{{ year|e('url') }}">
+            {% if archives_show_count %}
+                <span class="menu-score" aria-label="{{ 'THEME_QUARK2.ARIA.POST_COUNT'|t|e('html_attr') }}">{{ items|length }}</span>
+            {% endif %}
+            <span class="menu-text archive_date">{{ year }}</span>
+        </a>
+    </li>
+{% endfor %}
+</ul>

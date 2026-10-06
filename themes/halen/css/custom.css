@@ -1,0 +1,67 @@
+/* Halen look on top of Quark 2. Quark loads this file last; its design tokens are in quark2/css/theme.css. */
+
+/* Colors: Halen olive (also the accent-color in halen.yaml), the light blue-gray canvas, the green club box */
+:root,:root[data-theme="light"]{--q2-bg:#e9f0f4;--halen-green:#5e6847;--halen-leaf:#c5d69f}
+:root[data-theme="dark"]{--halen-green:#b5c48f;--halen-leaf:#3a4229}
+
+/* Wordmark logo (images/logo/halen.svg) */
+.navbar-brand svg{height:30px}
+.navbar-brand svg,.navbar-brand svg *{fill:var(--halen-green)}
+
+/* Pages next to the sidebar get the white card of Quark's full-width pages */
+#item > .content-item{background:var(--q2-bg-elev);border-radius:var(--q2-radius-lg);padding:clamp(1.25rem,4vw,2.5rem);box-shadow:rgba(19,19,22,.04) 0 1px 2px,rgba(19,19,22,.04) 0 8px 24px -8px}
+#item > .content-item > header{padding:0}
+#item > .content-item::after{content:"";display:table;clear:both}
+
+/* Blog lists: title in the content column with the sidebar beside it (Quark centers it above both) */
+.blog-page-header{text-align:left;max-width:none;margin:0 0 1.5rem}
+@media (min-width:960px){
+  .blog-listing > .container:has(> .columns.has-sidebar){display:grid;grid-template-columns:minmax(0,2.5fr) minmax(0,1fr);grid-template-rows:auto 1fr;column-gap:clamp(2rem,4vw,3rem);align-items:start}
+  .blog-listing > .container > .columns.has-sidebar{display:contents}
+  .blog-listing > .container > .blog-page-header,.blog-listing #item{grid-column:1}
+  .blog-listing #sidebar{grid-column:2;grid-row:1 / span 2}
+}
+
+/* Whole card is clickable; tag links stay clickable on top. "Weiterlesen" comes from partials/blog-list-item. */
+.blog-grid .card{position:relative}
+.blog-grid .card-title :is(h2,h3){position:static}
+.blog-grid .card-title a::after{content:"";position:absolute;inset:0}
+.blog-grid .card-footer a{position:relative;z-index:1}
+/* The card shows its cover photo on top, so photos inside the teaser text are hidden */
+.blog-grid .card-body :is(img,figure,iframe,video),.blog-grid .card-body p:has(> img:only-child){display:none}
+.blog-grid .card-body .read-more{margin:.75rem 0 0;font-size:.9375rem;font-weight:600;color:var(--q2-link)}
+
+/* Club box (content page pages/modules/sidebar), moved to the top of the sidebar */
+#sidebar{display:flex;flex-direction:column}
+#sidebar > .about{order:-1}
+.sidebar-content.about{background:var(--halen-leaf);text-align:center}
+.sidebar-content.about img{width:140px;border-radius:50%;margin-inline:auto}
+.sidebar-content.about h3{font-size:1.125rem;margin:.75rem 0 .5rem}
+.sidebar-content.about .social{margin:0;font-size:1.5rem}
+.sidebar-content.about .social a{margin:0 .4rem;color:inherit}
+
+/* Archive years in two columns instead of one long list */
+.sidebar-content ul.archives{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:1rem}
+
+/* Single photo: beside the text on wide screens, so it doesn't push the text out of sight */
+.entry-image{margin:0 0 1.5rem}
+.entry-image img{display:block;width:100%;height:auto;max-height:min(24rem,45vh);object-fit:cover;border-radius:var(--q2-radius)}
+.entry-image figcaption{margin-top:.35rem;font-size:.875rem;color:var(--q2-text-muted)}
+@media (min-width:640px){.entry-image{float:right;width:45%;margin:.25rem 0 1rem 1.5rem}}
+
+/* Photo grid (partials/gallery.html.twig), opened in GLightbox */
+.gallery{clear:both;display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:.5rem;margin:1.5rem 0 0}
+.gallery-item{margin:0}
+.gallery-item a{display:block;overflow:hidden;border-radius:var(--q2-radius-sm)}
+.gallery-item img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;transition:transform .3s ease}
+.gallery-item a:hover img{transform:scale(1.04)}
+.gallery-item figcaption{margin-top:.35rem;font-size:.8125rem;line-height:1.3;color:var(--q2-text-muted);text-align:center}
+
+/* Dorfkalender (calendar.html.twig) */
+.termine{margin-bottom:2rem;border:1px solid var(--q2-border-strong);border-radius:var(--q2-radius);overflow:hidden}
+.termine .termine-tag{margin:0;padding:.5rem .9rem;background:var(--q2-bg-muted);font-family:var(--pico-font-family-sans-serif);font-size:.95rem;font-weight:600}
+.termine .termine-tag::before{display:none}
+.termin{display:flex;gap:1rem;padding:.6rem .9rem;border-top:1px solid var(--q2-divider)}
+.termin-zeit{flex:0 0 8.5em;color:var(--q2-text-muted)}
+.termine-abo{display:flex;flex-wrap:wrap;gap:.75rem}
+@media (max-width:600px){.termin{flex-direction:column;gap:0}.termin-zeit{flex-basis:auto;font-size:.875rem}}

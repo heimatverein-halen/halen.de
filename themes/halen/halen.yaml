@@ -1,0 +1,32 @@
+enabled: true
+
+# Child theme of Quark 2: files in this folder win, everything else comes from user/themes/quark2.
+streams:
+  schemes:
+    theme:
+      type: ReadOnlyStream
+      prefixes:
+        '':
+          - 'user://themes/halen'
+          - 'user://themes/quark2'
+
+# Quark 2 options. A child theme does not inherit the parent's config, so all of them are listed.
+header-fixed: true
+header-animated: true
+header-transparent: false
+header-dark: false
+header-light: false
+sticky-footer: true
+theme-mode: light
+accent-color: '#5e6847'
+blog-page: '/blog'
+custom_logo:
+  - name: halen.svg
+custom_favicon:
+  - name: favicon.png
+fontawesome:
+  enabled: true
+  local: true
+
+# Sidebar on every blog list (Quark 2 default: only on posts).
+show_sidebar: true

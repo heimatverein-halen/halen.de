@@ -1,0 +1,26 @@
+{# One page or post: title, date and tags (posts only), photos, text. #}
+{# Photos already embedded in the text are not repeated (checked in the markdown, the rendered text may link a cached copy). #}
+{% set markdown = page.rawMarkdown %}
+{% set images = page.media.images|filter(image => image.filename not in markdown and image.filename|url_encode not in markdown) %}
+{% if images is not empty %}{% include 'partials/lightbox.html.twig' %}{% endif %}
+<article class="content-item h-entry">
+  <header class="content-title">
+    <h1 class="p-name">{{ page.title }}</h1>
+    {% include 'partials/blog/date.html.twig' %}
+    {% include 'partials/blog/taxonomy.html.twig' %}
+  </header>
+
+  {% if images|length == 1 %}
+    {% set image = images|first %}
+    <figure class="entry-image">
+      <a href="{{ image.url }}" data-gallery="fotos">{{ image.cropResize(800, 800).html('', image.meta.alt_text ?: page.title)|raw }}</a>
+      {% if image.meta.alt_text %}<figcaption>{{ image.meta.alt_text }}</figcaption>{% endif %}
+    </figure>
+  {% endif %}
+
+  <div class="e-content">{{ page.content|raw }}</div>
+
+  {% if images|length > 1 %}
+    <div class="gallery">{% include 'partials/gallery.html.twig' %}</div>
+  {% endif %}
+</article>

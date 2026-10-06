@@ -1,0 +1,10 @@
+{# Links to the legal pages (category impressum) instead of Quark 2's credits. #}
+<footer id="footer" class="section section-tight">
+    <div class="container">
+        <p>
+        {% for legal in taxonomy.findTaxonomy({'category': 'impressum'}) %}
+            <a href="{{ legal.url }}">{{ legal.menu }}</a>{% if not loop.last %} &middot; {% endif %}
+        {% endfor %}
+        </p>
+    </div>
+</footer>

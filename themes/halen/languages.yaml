@@ -1,0 +1,39 @@
+# German for Quark 2, which only ships English and Spanish.
+de:
+  THEME_QUARK2:
+    ERROR:
+      BACK_HOME: "Zur Startseite"
+    BLOG:
+      ITEM:
+        NEXT_POST: "Nächster Beitrag"
+        PREV_POST: "Vorheriger Beitrag"
+    SIDEBAR:
+      RELATED_POSTS:
+        HEADLINE: "Ähnliche Beiträge"
+      RANDOM_ARTICLE:
+        HEADLINE: "Zufallsfund"
+        FEELING_LUCKY: "Zufälligen Beitrag lesen"
+      POPULAR_TAGS:
+        HEADLINE: "Schlagwörter"
+      ARCHIVES:
+        HEADLINE: "Archiv der Veranstaltungen"
+      SYNDICATE:
+        HEADLINE: "Feed"
+    THEME_TOGGLE:
+      LABEL: "Darstellung"
+      AUTO: "Automatisch"
+      LIGHT: "Hell"
+      DARK: "Dunkel"
+      ARIA_LABEL: "Darstellung: %s"
+      TITLE: "Darstellung: %s (klicken zum Wechseln)"
+    ARIA:
+      PRIMARY_NAV: "Hauptmenü"
+      MOBILE_NAV: "Mobiles Menü"
+      MENU: "Menü"
+      OPEN_MENU: "Menü öffnen"
+      BREADCRUMB: "Brotkrumen"
+      PAGINATION: "Seitennavigation"
+      POST_NAVIGATION: "Beitragsnavigation"
+      SCORE: "Anzahl"
+      POST_COUNT: "Anzahl Beiträge"
+      OPEN_POST: "Beitrag öffnen"

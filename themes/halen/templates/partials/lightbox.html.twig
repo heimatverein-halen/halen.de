@@ -1,0 +1,4 @@
+{# GLightbox (js/glightbox.min.js, MIT, v3.3.1) for every link with data-gallery. #}
+{% do assets.addCss('theme://css/glightbox.min.css') %}
+{% do assets.addJs('theme://js/glightbox.min.js', {group: 'bottom'}) %}
+{% do assets.addInlineJs("GLightbox({selector: '[data-gallery]'});", {group: 'bottom'}) %}

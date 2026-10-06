@@ -1,0 +1,9 @@
+{# Quark 2's date, shown only when the page sets one (otherwise Grav falls back to the file time). #}
+{% if page.header.date %}
+<span class="blog-date">
+    <time class="dt-published" datetime="{{ page.date|date('c') }}">
+        <i class="fa-solid fa-calendar" aria-hidden="true"></i>
+        {{ page.date|date(system.pages.dateformat.short) }}
+    </time>
+</span>
+{% endif %}

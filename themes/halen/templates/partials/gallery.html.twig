@@ -1,0 +1,11 @@
+{# Photo thumbnails that open in the lightbox. The caller wraps them in <div class="gallery">. #}
+{# Caption: the optional `caption` parameter, else the photo's alt text. #}
+{% for image in images %}
+  {% set text = caption ?? image.meta.alt_text %}
+  <figure class="gallery-item">
+    <a href="{{ image.url }}" data-gallery="fotos"{% if text %} data-title="{{ text }}"{% endif %}>
+      {{ image.cropZoom(400, 300).loading('lazy').html('', text ?: page.title)|raw }}
+    </a>
+    {% if text %}<figcaption>{{ text }}</figcaption>{% endif %}
+  </figure>
+{% endfor %}

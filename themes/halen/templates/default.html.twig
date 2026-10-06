@@ -1,0 +1,10 @@
+{# Pages and posts: the entry next to the sidebar. Quark 2's own default has neither title nor sidebar. #}
+{% extends 'partials/base.html.twig' %}
+{% set blog = page.find(theme_var('blog-page')) %}
+
+{% block content %}
+  {% embed 'partials/layout.html.twig' %}
+    {% block item %}{% include 'partials/entry.html.twig' %}{% endblock %}
+    {% block sidebar %}{% include 'partials/sidebar.html.twig' %}{% endblock %}
+  {% endembed %}
+{% endblock %}
