@@ -12,7 +12,7 @@ streams:
 
 # Quark 2 options. A child theme does not inherit the parent's config, so all of them are listed.
 header-fixed: true
-header-animated: true
+header-animated: false
 header-transparent: false
 header-dark: false
 header-light: false

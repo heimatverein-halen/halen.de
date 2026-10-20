@@ -8,10 +8,13 @@
 .navbar-brand svg{height:30px}
 .navbar-brand svg,.navbar-brand svg *{fill:var(--halen-green)}
 
-/* Phone header: hamburger centered in the bar and on the page gutter (Quark: 14px from top/right) */
+/* Phone header: labeled "Menue" button instead of the icon-only hamburger, centered in the bar */
 @media (max-width:860px){
-  .mobile-menu{top:10px;right:var(--pico-spacing,1rem)}
-  .header-animated.scrolled .mobile-menu{top:8px}
+  .mobile-menu{top:10px;right:1rem}
+  button.button_container{width:auto;height:44px;padding:0 1.1rem}
+  .button_container span{display:none}
+  .button_container::after{content:"\2630  Men\FC";font-size:1.0625rem;font-weight:600;line-height:1;white-space:nowrap}
+  .button_container.active::after{content:"\2715  Schlie\DFen"}
 }
 
 /* Pages next to the sidebar get the white card of Quark's full-width pages */
