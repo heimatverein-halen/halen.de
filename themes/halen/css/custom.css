@@ -8,6 +8,12 @@
 .navbar-brand svg{height:30px}
 .navbar-brand svg,.navbar-brand svg *{fill:var(--halen-green)}
 
+/* Phone header: hamburger centered in the bar and on the page gutter (Quark: 14px from top/right) */
+@media (max-width:860px){
+  .mobile-menu{top:10px;right:var(--pico-spacing,1rem)}
+  .header-animated.scrolled .mobile-menu{top:8px}
+}
+
 /* Pages next to the sidebar get the white card of Quark's full-width pages */
 #item > .content-item{background:var(--q2-bg-elev);border-radius:var(--q2-radius-lg);padding:clamp(1.25rem,4vw,2.5rem);box-shadow:rgba(19,19,22,.04) 0 1px 2px,rgba(19,19,22,.04) 0 8px 24px -8px}
 #item > .content-item > header{padding:0}

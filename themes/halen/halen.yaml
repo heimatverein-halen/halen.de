@@ -22,6 +22,8 @@ accent-color: '#5e6847'
 blog-page: '/blog'
 custom_logo:
   - name: halen.svg
+custom_logo_mobile:
+  - name: halen.svg
 custom_favicon:
   - name: favicon.png
 fontawesome:
