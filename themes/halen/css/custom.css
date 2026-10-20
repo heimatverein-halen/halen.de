@@ -14,7 +14,7 @@
   button.button_container{width:auto;height:44px;padding:0 1.1rem}
   .button_container span{display:none}
   .button_container::after{content:"\2630  Men\FC";font-size:1.0625rem;font-weight:600;line-height:1;white-space:nowrap}
-  .button_container.active::after{content:"\D7  Schlie\DFen"}
+  .button_container.active::after{content:"\D7  Schließen"}
 }
 
 /* Pages next to the sidebar get the white card of Quark's full-width pages */
