@@ -18,14 +18,14 @@ header-dark: false
 header-light: false
 sticky-footer: true
 theme-mode: light
-accent-color: '#5e6847'
+accent-color: '#2f5a3c'
 blog-page: '/blog'
 custom_logo:
   - name: halen.svg
 custom_logo_mobile:
   - name: halen.svg
 custom_favicon:
-  - name: favicon.png
+  - name: favicon.svg
 fontawesome:
   enabled: true
   local: true

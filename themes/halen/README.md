@@ -7,7 +7,7 @@ Quark 2.
 
 ## Settings
 
-`halen.yaml` holds the Quark 2 options (a child theme does not inherit them): light mode by default, olive accent,
+`halen.yaml` holds the Quark 2 options (a child theme does not inherit them): light mode by default, forest green accent,
 the `halen.svg` wordmark as logo, Font Awesome served locally, sidebar on blog lists. The admin shows the same
 form as Quark 2 (`extends@` in `blueprints.yaml`).
 

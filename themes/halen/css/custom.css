@@ -1,8 +1,8 @@
 /* Halen look on top of Quark 2. Quark loads this file last; its design tokens are in quark2/css/theme.css. */
 
-/* Colors: Halen olive (also the accent-color in halen.yaml), the light blue-gray canvas, the green club box */
-:root,:root[data-theme="light"]{--q2-bg:#e9f0f4;--halen-green:#5e6847;--halen-leaf:#c5d69f}
-:root[data-theme="dark"]{--halen-green:#b5c48f;--halen-leaf:#3a4229}
+/* Colors: forest green (also the accent-color in halen.yaml), sand canvas, darker gray text, the green club box */
+:root,:root[data-theme="light"]{--q2-bg:#ece6d8;--q2-bg-muted:#f5f0e5;--q2-text-muted:#5f574b;--halen-green:#2f5a3c;--halen-leaf:#dce6c6}
+:root[data-theme="dark"]{--q2-link:#8dbb97;--halen-green:#8dbb97;--halen-leaf:#2c3a26}
 
 /* Wordmark logo (images/logo/halen.svg) */
 .navbar-brand svg{height:30px}
@@ -48,6 +48,18 @@
 .sidebar-content.about h3{font-size:1.125rem;margin:.75rem 0 .5rem}
 .sidebar-content.about .social{margin:0;font-size:1.5rem}
 .sidebar-content.about .social a{margin:0 .4rem;color:inherit}
+
+/* Next event line under the Aktuelles title (pages/01.blog/blog.md) */
+.naechster-termin{display:flex;align-items:center;gap:.875rem;padding:.75rem 1rem;background:var(--q2-bg-elev);border-radius:var(--q2-radius-md);color:var(--q2-text);line-height:1.4;text-decoration:none}
+.naechster-termin:hover{color:var(--q2-text)}
+.naechster-termin .icon{flex:none;display:grid;place-items:center;width:2.5rem;height:2.5rem;border-radius:50%;background:var(--halen-leaf);color:var(--halen-green)}
+.naechster-termin .text{flex:1;min-width:0}
+.naechster-termin small{display:block;font-size:.8125rem;font-weight:600;color:var(--halen-green)}
+.naechster-termin .mehr{flex:none;font-weight:600;color:var(--q2-link)}
+@media (max-width:600px){.naechster-termin{gap:.75rem}.naechster-termin .mehr span{display:none}}
+
+/* No Feed box (Atom/RSS) in the sidebar; the feeds themselves stay available */
+.sidebar-content.syndicate{display:none}
 
 /* Archive years in two columns instead of one long list */
 .sidebar-content ul.archives{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:1rem}
