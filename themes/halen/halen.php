@@ -58,7 +58,11 @@ class Halen extends Quark2
                 $props = [];
             } elseif ($line === 'END:VEVENT') {
                 if ($props !== null && isset($props['DTSTART'])) {
-                    $events[] = $this->buildEvent($props, $tz);
+                    try {
+                        $events[] = $this->buildEvent($props, $tz);
+                    } catch (\Throwable) {
+                        // Skip events with unreadable dates rather than break the page (and the home page).
+                    }
                 }
                 $props = null;
             } elseif ($props !== null && str_contains($line, ':')) {
