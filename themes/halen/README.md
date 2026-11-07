@@ -22,6 +22,7 @@ form as Quark 2 (`extends@` in `blueprints.yaml`).
 | `partials/archives.html.twig` | Archive list by year (Quark 2's lists months). |
 | `partials/blog/date.html.twig` | Date only when the page sets one (Grav otherwise shows the file time). |
 | `partials/footer.html.twig` | Links to the legal pages (category `impressum`) instead of the theme credits. |
+| `partials/metadata.html.twig` | Grav's page metadata plus a description per page (from the page text) and link previews (Open Graph) with the page's first photo, else the club emblem. Replaces Grav's own file of the same name, not a Quark 2 file. |
 | `partials/simplesearch_searchbox.html.twig` | The search plugin's box without `autofocus` (it scrolled phones down to the sidebar). |
 | `css/custom.css` | Colors, wordmark, white page cards, blog title placement, clickable cards without inline photos, photo grid, Dorfkalender. |
 | `css/fontawesome/`, `css/webfonts/` | Font Awesome 7.0.1 free, so no request goes to a CDN. |

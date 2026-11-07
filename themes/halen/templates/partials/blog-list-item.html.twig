@@ -3,7 +3,7 @@
 <article class="card h-entry">
     {% set image = page.media.images|first %}
     {% if image %}
-    <a class="card-image" href="{{ page.url }}">{{ image.cropZoom(800, 420).html|raw }}</a>
+    <a class="card-image" href="{{ page.url }}">{{ image.cropZoom(800, 420).loading('lazy').html|raw }}</a>
     {% endif %}
     <header class="card-header">
         <div class="card-subtitle">

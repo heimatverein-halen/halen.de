@@ -1,0 +1,22 @@
+{# Grav's metadata (system/templates/partials/metadata.html.twig), plus a description of its own for every page
+   and a link preview (Open Graph) for WhatsApp, Facebook & Co. #}
+{% set text = page.template == 'default' ? page.summary|striptags|replace({"\n": ' ', "\r": ' '})|trim : '' %}
+{% set description = page.header.metadata.description ?? (text ? (text|length > 160 ? text|slice(0, 157)|trim ~ '…' : text) : site.metadata.description) %}
+{% set image = page.media.images|first %}
+{% set image_url = image ? image.cropZoom(1200, 630).url(true) : page.find('/modules/sidebar').media['about.png'].url(true) %}
+
+{% for meta in page.metadata|filter(meta => meta.name != 'description') %}
+    <meta {% if meta.name %}name="{{ meta.name|e }}" {% endif %}{% if meta.http_equiv %}http-equiv="{{ meta.http_equiv|e }}" {% endif %}{% if meta.charset %}charset="{{ meta.charset|e }}" {% endif %}{% if meta.property %}property="{{ meta.property|e }}" {% endif %}{% if meta.content %}content="{{ meta.content|raw }}" {% endif %}/>
+{% endfor %}
+    <meta name="description" content="{{ description|replace({'"': '&quot;', '<': '&lt;'})|raw }}" />
+    <meta property="og:type" content="{{ page.header.date ? 'article' : 'website' }}" />
+    <meta property="og:site_name" content="{{ site.title|e }}" />
+    <meta property="og:title" content="{{ page.title|e }}" />
+    <meta property="og:description" content="{{ description|replace({'"': '&quot;', '<': '&lt;'})|raw }}" />
+    <meta property="og:url" content="{{ page.url(true)|e }}" />
+{% if image_url %}
+    <meta property="og:image" content="{{ image_url|e }}" />
+{% endif %}
+{% if config.system.pages.markdown_output.enabled and page.routable %}
+    <link rel="alternate" type="text/markdown" href="{{ markdown_url(page)|e }}" />
+{% endif %}
