@@ -9,6 +9,9 @@ streams:
         '':
           - 'user://themes/halen'
           - 'user://themes/quark2'
+        # Twig namespace @simplesearch for the plugin's original templates
+        'simplesearch/':
+          - 'user://plugins/simplesearch'
 
 # Quark 2 options. A child theme does not inherit the parent's config, so all of them are listed.
 header-fixed: true
