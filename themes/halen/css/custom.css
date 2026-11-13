@@ -89,3 +89,7 @@
 
 /* Page numbers wrap instead of making the phone page scroll sideways */
 .pagination{flex-wrap:wrap}
+
+/* Headings: no syllable hyphenation, balanced lines */
+:is(h1,h2,h3,h4){hyphens:manual;text-wrap:balance;overflow-wrap:break-word}
+body{hyphenate-limit-chars:8 4 4}
