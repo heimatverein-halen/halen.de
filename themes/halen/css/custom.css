@@ -113,3 +113,6 @@ body{hyphenate-limit-chars:8 4 4}
   .mobile-search .header-search span{display:none}
   body.overlay-open .mobile-search{display:none}
 }
+
+/* Lightbox: GLightbox hides the arrows on phones (swipe only); show them at the bottom */
+@media (max-width:768px){.glightbox-clean .gcontainer :is(.gprev,.gnext){top:auto;bottom:calc(1.5rem + env(safe-area-inset-bottom))}}
