@@ -4,3 +4,9 @@
 
 {% block header_navigation %}{{ parent() }}{{ search_link }}{% endblock %}
 {% block header %}{{ parent() }}<div class="mobile-search">{{ search_link }}</div>{% endblock %}
+
+{# Theme toggle only switches light/dark: before Quark's cycle (auto, light, dark) runs, store the preference that cycles to the opposite of what is shown #}
+{% block bottom %}
+  {{ parent() }}
+  <script>document.addEventListener('click',function(e){if(e.target.closest('[data-theme-toggle]')){try{localStorage.setItem('quark2-theme',document.documentElement.getAttribute('data-theme')==='dark'?'auto':'light')}catch(x){}}},true);</script>
+{% endblock %}

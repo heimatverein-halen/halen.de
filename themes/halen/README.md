@@ -16,7 +16,7 @@ form as Quark 2 (`extends@` in `blueprints.yaml`).
 | File | Why |
 | --- | --- |
 | `templates/default.html.twig`, `partials/entry.html.twig` | Pages and posts with title, date, tags, photos and the sidebar. The first photo comes before the text (with the photo count when there are more), the others in a grid after it. Quark 2's `default` shows only the text. |
-| `partials/base.html.twig` | Quark 2's page frame (extended via the `@quark2` namespace, `halen.yaml`) plus a search link: last in the menu row, next to "Menü" on phones. |
+| `partials/base.html.twig` | Quark 2's page frame (extended via the `@quark2` namespace, `halen.yaml`) plus a search link (last in the menu row, next to "Menü" on phones) and a few lines that make the theme toggle switch only between light and dark (no "auto"). |
 | `templates/calendar.html.twig`, `halen.php` | Dorfkalender: lists the events of the uploaded `.ics` file(s), with links to subscribe and download. |
 | `partials/gallery.html.twig`, `partials/lightbox.html.twig` | Photo grid and the GLightbox lightbox (`js/glightbox.min.js`, `css/glightbox.min.css`, MIT, v3.3.1). |
 | `partials/blog-list-item.html.twig` | Quark 2's card plus one line: "Weiterlesen" only when the page has more than the card shows. |
