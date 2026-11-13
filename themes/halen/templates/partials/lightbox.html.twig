@@ -1,4 +1,8 @@
-{# GLightbox (js/glightbox.min.js, MIT, v3.3.1) for every link with data-gallery. #}
-{% do assets.addCss('theme://css/glightbox.min.css') %}
-{% do assets.addJs('theme://js/glightbox.min.js', {group: 'bottom'}) %}
-{% do assets.addInlineJs("GLightbox({selector: '[data-gallery]'});", {group: 'bottom'}) %}
+{# PhotoSwipe (js/photoswipe*.esm.min.js, css/photoswipe.css, MIT, v5.4.4) for every photo link with data-pswp-width, caption from data-title #}
+{% do assets.addCss('theme://css/photoswipe.css') %}
+<script type="module">
+  import PhotoSwipeLightbox from '{{ url('theme://js/photoswipe-lightbox.esm.min.js') }}';
+  const lightbox = new PhotoSwipeLightbox({bgOpacity: 1, gallery: '.content-item', children: 'a[data-pswp-width]', pswpModule: () => import('{{ url('theme://js/photoswipe.esm.min.js') }}')});
+  lightbox.on('uiRegister', () => lightbox.pswp.ui.registerElement({name: 'caption', appendTo: 'root', onInit: (el, pswp) => pswp.on('change', () => { el.textContent = pswp.currSlide.data.element?.dataset.title || ''; })}));
+  lightbox.init();
+</script>

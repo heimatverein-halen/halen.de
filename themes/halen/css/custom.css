@@ -70,7 +70,7 @@
 .entry-image figcaption{margin-top:.35rem;font-size:.875rem;color:var(--q2-text-muted)}
 @media (min-width:640px){.entry-image{float:right;width:45%;margin:.25rem 0 1rem 1.5rem}}
 
-/* Photo grid (partials/gallery.html.twig), opened in GLightbox */
+/* Photo grid (partials/gallery.html.twig), opened in PhotoSwipe */
 .gallery{clear:both;display:grid;grid-template-columns:repeat(auto-fill,minmax(9rem,1fr));gap:.5rem;margin:1.5rem 0 0}
 .gallery-item{margin:0}
 .gallery-item a{display:block;overflow:hidden;border-radius:var(--q2-radius-sm)}
@@ -114,5 +114,6 @@ body{hyphenate-limit-chars:8 4 4}
   body.overlay-open .mobile-search{display:none}
 }
 
-/* Lightbox: GLightbox hides the arrows on phones (swipe only); show them at the bottom */
-@media (max-width:768px){.glightbox-clean .gcontainer :is(.gprev,.gnext){top:auto;bottom:calc(1.5rem + env(safe-area-inset-bottom))}}
+/* Photo caption in PhotoSwipe (partials/lightbox.html.twig) */
+.pswp__caption{position:absolute;inset:auto 0 0;padding:1rem 1rem calc(1rem + env(safe-area-inset-bottom));color:#fff;text-align:center;background:linear-gradient(transparent,rgb(0 0 0/.6))}
+.pswp__caption:empty{display:none}

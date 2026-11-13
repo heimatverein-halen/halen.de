@@ -13,7 +13,7 @@
   {% if images is not empty %}
     {% set image = images|first %}
     <figure class="entry-image">
-      <a href="{{ image.url }}" data-gallery="fotos"{% if image.meta.alt_text %} data-title="{{ image.meta.alt_text }}"{% endif %}>
+      <a href="{{ image.url }}" data-pswp-width="{{ image.width }}" data-pswp-height="{{ image.height }}"{% if image.meta.alt_text %} data-title="{{ image.meta.alt_text }}"{% endif %}>
         {{ image.cropResize(800, 800).html('', image.meta.alt_text ?: page.title)|raw }}
         {% if images|length > 1 %}<span class="foto-anzahl"><i class="fa-solid fa-camera" aria-hidden="true"></i> {{ images|length }} Fotos</span>{% endif %}
       </a>
