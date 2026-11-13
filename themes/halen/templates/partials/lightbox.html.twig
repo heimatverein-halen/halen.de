@@ -2,7 +2,7 @@
 {% do assets.addCss('theme://css/photoswipe.css') %}
 <script type="module">
   import PhotoSwipeLightbox from '{{ url('theme://js/photoswipe-lightbox.esm.min.js') }}';
-  const lightbox = new PhotoSwipeLightbox({bgOpacity: 1, gallery: '.content-item', children: 'a[data-pswp-width]', pswpModule: () => import('{{ url('theme://js/photoswipe.esm.min.js') }}')});
+  const lightbox = new PhotoSwipeLightbox({bgOpacity: 0.9, gallery: '.content-item', children: 'a[data-pswp-width]', pswpModule: () => import('{{ url('theme://js/photoswipe.esm.min.js') }}')});
   lightbox.on('uiRegister', () => lightbox.pswp.ui.registerElement({name: 'caption', appendTo: 'root', onInit: (el, pswp) => pswp.on('change', () => { el.textContent = pswp.currSlide.data.element?.dataset.title || ''; })}));
   lightbox.init();
 </script>
