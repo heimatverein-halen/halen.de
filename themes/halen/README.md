@@ -15,7 +15,8 @@ form as Quark 2 (`extends@` in `blueprints.yaml`).
 
 | File | Why |
 | --- | --- |
-| `templates/default.html.twig`, `partials/entry.html.twig` | Pages and posts with title, date, tags, photos and the sidebar. Quark 2's `default` shows only the text. |
+| `templates/default.html.twig`, `partials/entry.html.twig` | Pages and posts with title, date, tags, photos and the sidebar. The first photo comes before the text (with the photo count when there are more), the others in a grid after it. Quark 2's `default` shows only the text. |
+| `partials/base.html.twig` | Quark 2's page frame (extended via the `@quark2` namespace, `halen.yaml`) plus a search link: last in the menu row, next to "Menü" on phones. |
 | `templates/calendar.html.twig`, `halen.php` | Dorfkalender: lists the events of the uploaded `.ics` file(s), with links to subscribe and download. |
 | `partials/gallery.html.twig`, `partials/lightbox.html.twig` | Photo grid and the GLightbox lightbox (`js/glightbox.min.js`, `css/glightbox.min.css`, MIT, v3.3.1). |
 | `partials/blog-list-item.html.twig` | Quark 2's card plus one line: "Weiterlesen" only when the page has more than the card shows. |
@@ -23,7 +24,7 @@ form as Quark 2 (`extends@` in `blueprints.yaml`).
 | `partials/blog/date.html.twig` | Date only when the page sets one (Grav otherwise shows the file time). |
 | `partials/footer.html.twig` | Links to the legal pages (category `impressum`) instead of the theme credits. |
 | `partials/metadata.html.twig` | Grav's page metadata plus a description per page (from the page text) and link previews (Open Graph) with the page's first photo, else the club emblem. Replaces Grav's own file of the same name, not a Quark 2 file. |
-| `partials/simplesearch_searchbox.html.twig` | The search plugin's box without `autofocus` (it scrolled phones down to the sidebar). Includes the plugin's own file via the `@simplesearch` namespace (`halen.yaml`) instead of copying it. |
+| `partials/simplesearch_searchbox.html.twig` | The search plugin's box, with `autofocus` only on the search page (elsewhere it scrolled phones down to the sidebar). Includes the plugin's own file via the `@simplesearch` namespace (`halen.yaml`) instead of copying it. |
 | `css/custom.css` | Colors, wordmark, white page cards, blog title placement, clickable cards without inline photos, photo grid, Dorfkalender. |
 | `css/fontawesome/`, `css/webfonts/` | Font Awesome 7.0.1 free, so no request goes to a CDN. |
 | `images/logo/halen.svg` | "Halen" in Quark 2's Cal Sans, as paths. |

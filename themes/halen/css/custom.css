@@ -64,7 +64,7 @@
 /* Archive years in two columns instead of one long list */
 .sidebar-content ul.archives{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:1rem}
 
-/* Single photo: beside the text on wide screens, so it doesn't push the text out of sight */
+/* First photo of a page: beside the text on wide screens, so it doesn't push the text out of sight */
 .entry-image{margin:0 0 1.5rem}
 .entry-image img{display:block;width:100%;height:auto;max-height:min(24rem,45vh);object-fit:cover;border-radius:var(--q2-radius)}
 .entry-image figcaption{margin-top:.35rem;font-size:.875rem;color:var(--q2-text-muted)}
@@ -96,3 +96,20 @@ body{hyphenate-limit-chars:8 4 4}
 
 /* Article text in Blocksatz */
 .e-content p{text-align:justify}
+
+/* Photo count on the first photo of posts with several (partials/entry.html.twig) */
+.entry-image a{position:relative;display:block}
+.foto-anzahl{position:absolute;right:.5rem;bottom:.5rem;padding:.3rem .7rem;border-radius:var(--q2-radius-pill);background:rgb(0 0 0/.65);color:#fff;font-size:.875rem;font-weight:600;line-height:1.2}
+
+/* Search link (partials/base.html.twig): last item of the menu row; on phones a round button left of "Menü" */
+.dropmenu{display:flex;align-items:center}
+.header-search{display:inline-flex;flex:none;align-items:center;gap:.4rem;margin-left:.75rem;padding:.4rem .9rem;border-radius:var(--q2-radius-pill);background:var(--q2-bg-muted);color:var(--q2-text-strong);text-decoration:none}
+.header-search:hover{background:var(--halen-leaf);color:var(--q2-text-strong);text-decoration:none}
+.mobile-search{display:none}
+@media (max-width:1150px){.desktop-menu .header-search{padding:.5rem .6rem}.desktop-menu .header-search span{display:none}}
+@media (max-width:860px){
+  .mobile-search{display:block;position:fixed;top:10px;right:calc(1rem + 7rem);z-index:70}
+  .mobile-search .header-search{width:44px;height:44px;margin:0;padding:0;justify-content:center;background:var(--q2-bg-elev);box-shadow:var(--q2-shadow-card);font-size:1.0625rem}
+  .mobile-search .header-search span{display:none}
+  body.overlay-open .mobile-search{display:none}
+}

@@ -1,2 +1,3 @@
-{# The plugin's search box without autofocus: it focused the empty, required field on every page load (red :invalid state) #}
-{{ include('@simplesearch/partials/simplesearch_searchbox.html.twig')|replace({' autofocus': ''})|raw }}
+{# The plugin's search box, autofocus only on the search page: elsewhere it focused the empty, required field on every page load (red :invalid state) #}
+{% set box = include('@simplesearch/partials/simplesearch_searchbox.html.twig') %}
+{{ (uri.path starts with config.plugins.simplesearch.route ? box : box|replace({' autofocus': ''}))|raw }}

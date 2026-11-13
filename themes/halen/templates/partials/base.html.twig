@@ -1,0 +1,6 @@
+{# Quark 2's page frame plus a search link in the header (menu row on wide screens, next to "Menü" on phones) #}
+{% extends '@quark2/partials/base.html.twig' %}
+{% set search_link %}<a class="header-search" href="{{ base_url }}{{ config.plugins.simplesearch.route }}" aria-label="Suche" title="Suche"><i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i><span>Suche</span></a>{% endset %}
+
+{% block header_navigation %}{{ parent() }}{{ search_link }}{% endblock %}
+{% block header %}{{ parent() }}<div class="mobile-search">{{ search_link }}</div>{% endblock %}
