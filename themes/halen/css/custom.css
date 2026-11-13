@@ -93,3 +93,6 @@
 /* Headings: no syllable hyphenation, balanced lines */
 :is(h1,h2,h3,h4){hyphens:manual;text-wrap:balance;overflow-wrap:break-word}
 body{hyphenate-limit-chars:8 4 4}
+
+/* Article text in Blocksatz */
+.e-content p{text-align:justify}
