@@ -20,7 +20,7 @@ form as Quark 2 (`extends@` in `blueprints.yaml`).
 | `templates/calendar.html.twig`, `halen.php` | Dorfkalender: lists the events of the uploaded `.ics` file(s), with links to subscribe and download. |
 | `partials/gallery.html.twig`, `partials/lightbox.html.twig` | Photo grid and the PhotoSwipe lightbox with counter and caption (`js/photoswipe*.esm.min.js`, `css/photoswipe.css`, MIT, v5.4.4). |
 | `partials/blog-list-item.html.twig` | Quark 2's card plus one line: "Weiterlesen" only when the page has more than the card shows. |
-| `partials/archives.html.twig` | Archive list by year (Quark 2's lists months). |
+| `partials/archives.html.twig` | Archive list by year (Quark 2's lists months), only on the home page. |
 | `partials/blog/date.html.twig` | Date only when the page sets one (Grav otherwise shows the file time). |
 | `partials/footer.html.twig` | Links to the legal pages (category `impressum`) instead of the theme credits. |
 | `partials/metadata.html.twig` | Grav's page metadata plus a description per page (from the page text) and link previews (Open Graph) with the page's first photo, else the club emblem. Replaces Grav's own file of the same name, not a Quark 2 file. |

@@ -1,4 +1,6 @@
 {# Quark 2's archive list, by year instead of month (archives plugin: date_display_format 'Y', taxonomy_names.year archiv). #}
+{# Only on the home page (the blog list): elsewhere the links went to the current page. Its empty box is hidden in custom.css. #}
+{% if page.home %}
 <ul class="archives">
 {% for year, items in archives_data %}
     <li>
@@ -11,3 +13,4 @@
     </li>
 {% endfor %}
 </ul>
+{% endif %}
